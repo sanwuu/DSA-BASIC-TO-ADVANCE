@@ -1,0 +1,3 @@
+here i will mention the sequence of the problem how it had structured right
+1.fib
+2.jump game 
