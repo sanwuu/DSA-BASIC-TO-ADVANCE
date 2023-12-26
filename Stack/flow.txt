@@ -1,0 +1,1 @@
+in stack i will discuss basics of stacks and then some questions from love babbar dsa sheet , striver sheet and also questions from codeforces

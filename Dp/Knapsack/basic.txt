@@ -1,0 +1,39 @@
+0/1 Knapsack Problem:
+
+The 0/1 Knapsack Problem is a classic optimization problem where you have a set of items, each with a weight and a value, and a knapsack with a maximum capacity. The goal is to select a subset of items to maximize the total value without exceeding the knapsack's capacity. The key constraint is that you can either include an item in the knapsack (1) or leave it out (0), hence the name 0/1 Knapsack.
+Recursive Approach:
+
+The naive recursive approach involves considering all possible subsets of items and finding the one with the maximum value. However, this approach is inefficient due to overlapping subproblems.
+Dynamic Programming:
+
+Dynamic programming provides an efficient solution to the 0/1 Knapsack Problem by building a table to store solutions to subproblems. The table is filled iteratively, considering the optimal solutions to smaller subproblems and gradually solving larger ones.
+Unbounded Knapsack Problem:
+problems based on this :
+1.subset subproblems
+2.equal sum partition
+3.count of subset sum with given sum
+4.Minimum subset sum difference
+5.Maximum Subset Sum Difference
+6.count the number of subset with a given difference
+7.Target sum
+8..
+
+
+In the Unbounded Knapsack Problem, there is no limit on the number of times you can include each item in the knapsack. This variation introduces a new level of complexity, as each item can be chosen multiple times.
+Recursive Approach:
+
+Similar to the 0/1 Knapsack, a recursive approach can be used, but this time, an item can be included in the knapsack any number of times.
+Dynamic Programming:
+
+Dynamic programming can be adapted to solve the Unbounded Knapsack Problem by considering the maximum value that can be obtained for each capacity.
+Fractional Knapsack Problem:
+1.Rod cutting problem
+2.Coin change problem
+->maximum no. of ways
+->minimum no. of coins
+3...
+
+In the Fractional Knapsack Problem, you can take fractional parts of items, meaning you can take a fraction of an item's weight and value. This problem is often solved using a greedy algorithm.
+Greedy Algorithm:
+
+The greedy approach involves selecting items based on their value-to-weight ratio. Items are sorted by this ratio in descending order, and you add items to the knapsack until it is full. This greedy strategy provides an optimal solution for the Fractional Knapsack Problem
