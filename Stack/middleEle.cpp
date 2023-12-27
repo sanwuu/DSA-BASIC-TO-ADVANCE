@@ -1,5 +1,8 @@
 #include<isotream>
 usign namespace std;
+int mid(stack<int>&s){
+    
+}
 int main(){
     stack<int>s;
     s.push(3);
